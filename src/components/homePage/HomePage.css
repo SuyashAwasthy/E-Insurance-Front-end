@@ -1,0 +1,84 @@
+/* HomePage.css */
+.homepage {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full height */
+}
+
+.navbar {
+    background-color: #05080a; /* Background color for the navbar */
+    padding: 10px;
+    width: 100%; /* Full width */
+    position: fixed; /* Fixed at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar nav ul li {
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    margin-top: 60px; /* Adjust based on navbar height */
+    height: calc(100vh - 60px); /* Full viewport height minus navbar */
+}
+
+.left-partition {
+    flex: 3; /* 75% width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa; /* Light background color */
+position:relative;
+}
+
+.central-image {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover; /* Cover the area while maintaining aspect ratio */
+    position: absolute; /* Absolute positioning to fill the parent */
+}
+
+.right-partition {
+    flex: 1; /* 25% width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff; /* White background color */
+}
+
+.main-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff; /* Main color for the heading */
+    margin: 0;
+}
+
+.slogan {
+    font-size: 1.25rem;
+    color: #333; /* Darker color for the slogan */
+    text-align: center;
+}

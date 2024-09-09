@@ -1,0 +1,55 @@
+.admin-dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around; /* Evenly distribute navigation items */
+    background-color: #333;
+    padding: 10px;
+    color: #aa9090;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    color: #27147a;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.main-panel {
+    flex: 1;
+    padding: 20px;
+}
+
+
+/* styles.css or your main stylesheet */
+
+.navbar-nav .nav-item .dropdown-menu {
+    background-color: #ffffff; /* Ensure background color is set */
+    color: #000000; /* Ensure text color is set */
+}
+
+.navbar-nav .nav-item .dropdown-item {
+    color: #000000; /* Ensure text color is set */
+}
+
+.navbar-nav .nav-item .dropdown-item:hover {
+    background-color: #f8f9fa; /* Change background color on hover */
+}

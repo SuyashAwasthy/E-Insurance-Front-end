@@ -1,0 +1,11 @@
+.scheme-container {    border: 1px solid #ddd;
+    border-radius: 5px;    padding: 15px;
+    background-color: #f9f9f9;}
+.scheme-image img {
+    max-width: 100%;    height: auto;
+}
+.interest-calculator {    border: 1px solid #ddd;
+    border-radius: 5px;    padding: 15px;
+    background-color: #f9f9f9;}
+.interest-calculator h4 {
+    margin-bottom: 15px;}

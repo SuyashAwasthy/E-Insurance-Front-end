@@ -1,0 +1,14 @@
+
+/* HomePage.css or your specific CSS file */
+.dropdown-menu {
+    background-color: #1e1e1f; /* Set a background color that contrasts with the text color */
+    border: 1px solid #dee2e6; /* Optional: to define border color */
+}
+
+.dropdown-item {
+    color: #000; /* Set text color */
+}
+
+.dropdown-item:hover {
+    background-color: #e9ecef; /* Change background color on hover */
+}
